@@ -23,14 +23,14 @@
 
   <!-- DIV que armazenará todos os botões -->
   <div id="botoes">
+    <!-- Botão 01 - Atualizar-->
+    <input type="button" value="Atualizar" onclick="window.location.reload()" />
+    <!--Fim Botão 01-->
+    <!-- Botão 02 -Tamanho Fonte -->
+    <input type="button" value="Tamanho Fonte" onclick="mudatamanhofonte()" />
+    <!--Fim Botão 02-->
     <!-- Botão X - -->
-    <input type="button" value="X" />
-    <!--Fim Botão X-->
-    <!-- Botão X - -->
-    <input type="button" value="X" />
-    <!--Fim Botão X-->
-    <!-- Botão X - -->
-    <input type="button" value="X" />
+    <input type="button" value="Cor Fonte" onclick="mudacorfonte()" />
     <!--Fim Botão X-->
     <!-- Botão X - -->
     <input type="button" value="X" />
@@ -86,13 +86,13 @@
 
   <script> // Começa a brincadeira com JS
     // Botão X - xx
-    function x() {
-
+    function mudatamanhofonte() {
+      document.getElementById("manipula").style.fontSize = "40pt";
     }
     //fim do Botão X
     // Botão X - xx
-    function x() {
-
+    function mudacorfonte() {
+      document.getElementById("manipula").style.color = "#ffffff"
 }
 //fim do Botão X
     // Botão X - xx
