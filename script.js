@@ -49,18 +49,26 @@ function mudatamanhofonte() {
   }
   //fim do Botão X
   // Botão X - xx
-  function x() {
-
+  function backgroundp() {
+    document.getElementsByClassName("paragrafo")[0].style.background = 'red'
   }
   //fim do Botão X
   // Botão X - xx
-  function x() {
-
+  function corbotao() {
+    document.getElementsByTagName("input")[12].style.background = "lightblue"
   }
   //fim do Botão X
   // Botão X - xx
-  function x() {
+  function cortodosbotoes() {
+    
+    document.getElementsByTagName("input")[12].style.background = "lightblue"
 
+    var x = document.getElementById("botoes")
+    var y = x.getElementsByTagName("input")
+    var i
+    for(i = 0; i < y.length; i++){
+      y[i].style.background = "lightblue"
+    }
   }
   //fim do Botão X
   // Botão X - xx
