@@ -72,12 +72,23 @@ function mudatamanhofonte() {
   }
   //fim do Botão X
   // Botão X - xx
-  function x() {
+  function conta() {
 
   }
   //fim do Botão X
   // Botão X - xx
-  function x() {
+  function sensura() {
+    document.querySelector("p.paragrafo").innerHTML = "***********************"
+  }
+  //fim do Botão X
+  // Botão X - xx
+  function fundo() {
 
   }
-//fim do Botão X
+  //fim do Botão X
+  // Botão X - xx
+  function imagem() {
+    var img = document.querySelector("#image")
+    img.setAttribute('src', 'alien.jpg')
+  }
+  //fim do Botão X
